@@ -22,4 +22,7 @@ deploy:
   domain:
     auto: true
     tls: true
+    hostnameMode: ip
+    certChallenge: http-01
+    certificateProvider: lets-encrypt-staging
   env: []
